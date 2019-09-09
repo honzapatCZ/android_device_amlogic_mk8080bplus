@@ -1,7 +1,9 @@
 USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
--include vendor/amlogic/mk8080bplus/BoardConfigVendor.mk
+
+
+#-include vendor/amlogic/mk8080bplus/BoardConfigVendor.mk
 
 TARGET_ARCH := arm
 TARGET_NO_BOOTLOADER := true
