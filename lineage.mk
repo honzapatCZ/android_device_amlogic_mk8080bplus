@@ -1,11 +1,14 @@
 # Release name
 PRODUCT_RELEASE_NAME := mk8080bplus
 
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tv.mk)
+$(call inherit-product, vendor/lineage/config/common_mini_tv.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/amlogic/mk8080bplus/device_mk8080bplus.mk)
+$(call inherit-product, device/amlogic/mk8080bplus/full_mk8080bplus.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mk8080bplus
