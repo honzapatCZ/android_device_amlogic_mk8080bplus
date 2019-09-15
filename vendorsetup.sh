@@ -1,1 +1,4 @@
-add_lunch_combo full_mk8080bplus-eng
+add_lunch_combo lineage_mk8080bplus-user
+add_lunch_combo lineage_mk8080bplus-userdebug
+add_lunch_combo aosp_mk8080bplus-user
+add_lunch_combo aosp_mk8080bplus-userdebug
