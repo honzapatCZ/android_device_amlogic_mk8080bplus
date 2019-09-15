@@ -1,2 +1,1 @@
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_mk8080bplus.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/full_mk8080bplus.mk
